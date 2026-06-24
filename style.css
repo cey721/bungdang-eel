@@ -1013,6 +1013,9 @@ ul { list-style: none; }
   .section__title { font-size: 1.8rem; }
   .cta-card { padding: 32px 24px; }
   .map-placeholder { height: auto; padding: 28px 20px; }
+  .about__visual { display: flex !important; flex-direction: column; gap: 14px; min-height: auto; }
+  .about__card--main { min-height: 220px; width: 100%; }
+  .about__card--sm { width: 100%; grid-column: unset; }
 
   /* 메뉴 카드 — 추천 1줄 + 사이드 1줄 + 구이 3개 가로 한 줄 */
   .menu__grid {
