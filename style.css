@@ -544,6 +544,45 @@ ul { list-style: none; }
 .menu__gallery {
   margin-top: 8px;
 }
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.92);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+.lightbox.active { display: flex; }
+.lightbox__img {
+  max-width: 95vw;
+  max-height: 95vh;
+  object-fit: contain;
+  border-radius: 8px;
+  cursor: default;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+}
+.lightbox__close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox__close:hover { background: rgba(255,255,255,0.3); }
+.menu__board-img { cursor: zoom-in; }
+
 .menu__board {
   margin-top: 32px;
 }

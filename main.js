@@ -64,6 +64,20 @@ const observer = new IntersectionObserver(
 
 fadeEls.forEach(el => observer.observe(el));
 
+// --- Lightbox ---
+function openLightbox(src) {
+  document.getElementById('lightbox-img').src = src;
+  document.getElementById('lightbox').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeLightbox();
+});
+
 // --- Active nav link on scroll ---
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav__menu a[href^="#"]');

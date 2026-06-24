@@ -184,13 +184,13 @@
         <h4 class="menu__gallery-title">메뉴판</h4>
         <div class="menu__board-grid">
           <div class="menu__board-item">
-            <img src="메뉴판 이미지1.png" alt="메뉴판 1" class="menu__board-img" />
+            <img src="메뉴판 이미지1.png" alt="메뉴판 1" class="menu__board-img" onclick="openLightbox(this.src)" />
           </div>
           <div class="menu__board-item">
-            <img src="메뉴판이미지2.png" alt="메뉴판 2" class="menu__board-img" />
+            <img src="메뉴판이미지2.png" alt="메뉴판 2" class="menu__board-img" onclick="openLightbox(this.src)" />
           </div>
           <div class="menu__board-item">
-            <img src="메뉴판이미지3.png" alt="메뉴판 3" class="menu__board-img" />
+            <img src="메뉴판이미지3.png" alt="메뉴판 3" class="menu__board-img" onclick="openLightbox(this.src)" />
           </div>
         </div>
       </div>
@@ -359,5 +359,11 @@
   </footer>
 
   <script src="main.js"></script>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <button class="lightbox__close" onclick="closeLightbox()">✕</button>
+  <img id="lightbox-img" class="lightbox__img" src="" alt="메뉴판 확대" onclick="event.stopPropagation()" />
+</div>
+
 </body>
 </html>
