@@ -461,7 +461,7 @@ ul { list-style: none; }
 }
 .menu__card--featured .menu__card-desc { color: rgba(255,255,255,0.9); }
 .menu__card--featured h3 { color: var(--clr-gold); font-size: 2rem; }
-.menu__card--featured .menu__card-desc { font-size: 1.76rem; }
+.menu__card--featured .menu__card-desc { font-size: 1.3rem; }
 .menu__card-badge {
   position: absolute;
   top: 20px; right: 20px;
@@ -1028,6 +1028,7 @@ ul { list-style: none; }
   .side-name { font-weight: 600; }
   .side-price { color: var(--clr-primary); font-weight: 700; font-size: 0.72rem; }
   .menu__card-desc { font-size: 0.72rem; margin-bottom: 10px; flex: 1; }
+  .menu__card--featured .menu__card-desc { font-size: 0.78rem; }
   .price-row { font-size: 0.7rem; padding: 4px 0; }
 }
 
