@@ -460,7 +460,7 @@ ul { list-style: none; }
   align-items: center;
 }
 .menu__card--featured .menu__card-desc { color: rgba(255,255,255,0.9); }
-.menu__card--featured h3 { color: var(--clr-white); font-size: 2rem; }
+.menu__card--featured h3 { color: #ffffff !important; font-size: 2rem; }
 .menu__card--featured .menu__card-desc { font-size: 1.3rem; }
 .menu__card-badge {
   position: absolute;
