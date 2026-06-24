@@ -452,6 +452,8 @@ ul { list-style: none; }
   background: linear-gradient(145deg, #1a0800, #3a1500);
   color: var(--clr-white);
   border-color: var(--clr-gold);
+  width: 100%;
+  margin-bottom: 20px;
 }
 .menu__card--featured h3,
 .menu__card--featured .menu__card-desc { color: rgba(255,255,255,0.9); }
@@ -999,13 +1001,10 @@ ul { list-style: none; }
   .cta-card { padding: 32px 24px; }
   .map-placeholder { height: auto; padding: 28px 20px; }
 
-  /* 메뉴 카드 — 추천 1줄 + 나머지 3개 가로 한 줄 */
+  /* 메뉴 카드 — 추천 1줄 + 사이드 1줄 + 구이 3개 가로 한 줄 */
   .menu__grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
-  }
-  .menu__card--featured {
-    grid-column: 1 / -1;
   }
   .menu__card {
     padding: 14px 8px;
@@ -1014,9 +1013,10 @@ ul { list-style: none; }
   }
   .menu__card-icon { font-size: 1.3rem; margin-bottom: 4px; }
   .menu__card h3 { font-size: 0.78rem; margin-bottom: 8px; }
-  .side-item { font-size: 0.78rem; padding: 6px 10px; gap: 6px; }
-  .menu__side { padding: 16px 14px; display: inline-block; width: auto; }
-  .menu__side-title { font-size: 0.85rem; margin-bottom: 12px; padding-bottom: 8px; }
+  .menu__side { padding: 12px 14px; width: 100%; box-sizing: border-box; }
+  .menu__side-grid { flex-direction: row; }
+  .menu__side-title { font-size: 0.85rem; margin-bottom: 10px; padding-bottom: 8px; }
+  .side-item { font-size: 0.78rem; padding: 6px 10px; gap: 6px; flex: 1; justify-content: center; }
   .menu__card-desc { font-size: 0.72rem; margin-bottom: 10px; flex: 1; }
   .price-row { font-size: 0.7rem; padding: 4px 0; }
 }
