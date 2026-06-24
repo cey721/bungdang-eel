@@ -995,6 +995,22 @@ ul { list-style: none; }
   .section__title { font-size: 1.8rem; }
   .cta-card { padding: 32px 24px; }
   .map-placeholder { height: auto; padding: 28px 20px; }
+
+  /* 메뉴 카드 — 추천 1줄 + 나머지 3개 가로 한 줄 */
+  .menu__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+  .menu__card--featured {
+    grid-column: 1 / -1;
+  }
+  .menu__card {
+    padding: 14px 8px;
+  }
+  .menu__card-icon { font-size: 1.3rem; margin-bottom: 4px; }
+  .menu__card h3 { font-size: 0.78rem; margin-bottom: 8px; }
+  .menu__card-desc { font-size: 0.72rem; margin-bottom: 10px; }
+  .price-row { font-size: 0.7rem; padding: 4px 0; }
 }
 
 /* ============================================================
