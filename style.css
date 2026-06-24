@@ -978,6 +978,9 @@ ul { list-style: none; }
   .location__inner { grid-template-columns: 1fr; gap: 48px; }
   .about__visual { height: 320px; }
   .about__card--main { width: 75%; height: 260px; }
+  .about__card--sm { padding: 16px 12px; }
+  .about__card--top { top: 30px; }
+  .about__card--bot { bottom: 30px; }
   .ribbon__item { padding: 6px 20px; }
   .ribbon__divider { display: none; }
   .footer__inner { flex-direction: column; }
