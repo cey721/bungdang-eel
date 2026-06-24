@@ -548,12 +548,15 @@ ul { list-style: none; }
   margin-top: 32px;
 }
 .menu__board-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
   gap: 10px;
   margin-top: 16px;
+  overflow-x: auto;
 }
 .menu__board-item {
+  flex: 1;
+  min-width: 0;
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
