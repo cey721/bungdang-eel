@@ -550,7 +550,7 @@ ul { list-style: none; }
 .menu__board-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
+  gap: 10px;
   margin-top: 16px;
 }
 .menu__board-item {
@@ -558,15 +558,18 @@ ul { list-style: none; }
   overflow: hidden;
   box-shadow: var(--shadow);
   background: #1a0d00;
+  height: 180px;
 }
 .menu__board-img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
   display: block;
   transition: transform 0.35s ease;
 }
 .menu__board-item:hover .menu__board-img {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 .menu__board-link {
   display: block;
