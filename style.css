@@ -1029,6 +1029,7 @@ ul { list-style: none; }
   .side-price { color: var(--clr-primary); font-weight: 700; font-size: 0.72rem; }
   .menu__card-desc { font-size: 0.72rem; margin-bottom: 10px; flex: 1; }
   .menu__card--featured .menu__card-desc { font-size: 0.78rem; }
+  .menu__card--featured h3 { color: var(--clr-gold); font-size: 2rem; font-weight: 700; }
   .price-row { font-size: 0.7rem; padding: 4px 0; }
 }
 
