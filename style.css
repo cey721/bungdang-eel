@@ -987,9 +987,9 @@ ul { list-style: none; }
   .footer__copy { text-align: left; }
   .howto__steps { flex-direction: column; align-items: center; }
   .step__arrow { transform: rotate(90deg); }
-  .menu__side-grid { flex-direction: column; }
-  .side-item { border-right: none; border-bottom: 1px solid rgba(200,169,110,0.3); padding: 12px 0; }
-  .side-item:last-child { border-bottom: none; }
+  .menu__side-grid { flex-direction: row; }
+  .side-item { border-right: 1px solid rgba(200,169,110,0.3); border-bottom: none; padding: 8px 14px; }
+  .side-item:last-child { border-right: none; }
 }
 
 @media (max-width: 600px) {
@@ -1014,7 +1014,9 @@ ul { list-style: none; }
   }
   .menu__card-icon { font-size: 1.3rem; margin-bottom: 4px; }
   .menu__card h3 { font-size: 0.78rem; margin-bottom: 8px; }
-  .side-item { font-size: 0.78rem; }
+  .side-item { font-size: 0.78rem; padding: 6px 10px; gap: 6px; }
+  .menu__side { padding: 16px 14px; display: inline-block; width: auto; }
+  .menu__side-title { font-size: 0.85rem; margin-bottom: 12px; padding-bottom: 8px; }
   .menu__card-desc { font-size: 0.72rem; margin-bottom: 10px; flex: 1; }
   .price-row { font-size: 0.7rem; padding: 4px 0; }
 }
