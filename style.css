@@ -1014,6 +1014,7 @@ ul { list-style: none; }
   }
   .menu__card-icon { font-size: 1.3rem; margin-bottom: 4px; }
   .menu__card h3 { font-size: 0.78rem; margin-bottom: 8px; }
+  .side-item { font-size: 0.78rem; }
   .menu__card-desc { font-size: 0.72rem; margin-bottom: 10px; flex: 1; }
   .price-row { font-size: 0.7rem; padding: 4px 0; }
 }
