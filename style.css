@@ -594,7 +594,7 @@ ul { list-style: none; }
 .menu__board-img { cursor: zoom-in; }
 
 .menu__board {
-  margin-top: 32px;
+  margin-top: 64px;
 }
 .menu__board-grid {
   display: flex;
@@ -643,12 +643,13 @@ ul { list-style: none; }
 }
 .menu__gallery-title {
   font-family: var(--ff-serif);
-  font-size: 1.1rem;
+  font-size: 2.2rem;
   font-weight: 700;
   color: var(--clr-dark);
   margin-bottom: 20px;
   padding-bottom: 12px;
   border-bottom: 2px solid var(--clr-gold-light);
+  text-align: center;
 }
 .gallery__grid {
   display: grid;
