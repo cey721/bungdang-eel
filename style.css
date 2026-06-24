@@ -510,6 +510,7 @@ ul { list-style: none; }
   padding: 32px 36px;
   box-shadow: var(--shadow);
   margin-bottom: 24px;
+  text-align: center;
 }
 .menu__side-title {
   font-family: var(--ff-serif);
@@ -524,10 +525,12 @@ ul { list-style: none; }
   display: flex;
   gap: 0;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .side-item {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   padding: 12px 32px;
   border-right: 1px solid rgba(200,169,110,0.3);
