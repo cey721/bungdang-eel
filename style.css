@@ -400,8 +400,8 @@ ul { list-style: none; }
   text-align: center;
   background: var(--clr-white);
 }
-.about__card--top { top: 20px; }
-.about__card--bot { bottom: 20px; }
+.about__card--top { top: 80px; }
+.about__card--bot { bottom: 60px; }
 .stat-num {
   font-family: var(--ff-serif);
   font-size: 3rem;
