@@ -226,7 +226,7 @@ ul { list-style: none; }
 }
 .hero__title em {
   font-style: normal;
-  color: var(--clr-gold);
+  color: var(--clr-white);
   display: block;
   text-align: center;
 }
