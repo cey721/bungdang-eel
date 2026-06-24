@@ -552,7 +552,7 @@ ul { list-style: none; }
 
 /* --- 사진 & 영상 갤러리 --- */
 .menu__gallery {
-  margin-top: 8px;
+  margin-top: 120px;
 }
 .lightbox {
   display: none;
@@ -643,7 +643,7 @@ ul { list-style: none; }
 }
 .menu__gallery-title {
   font-family: var(--ff-serif);
-  font-size: 2.2rem;
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
   font-weight: 700;
   color: var(--clr-dark);
   margin-bottom: 20px;
@@ -736,7 +736,7 @@ ul { list-style: none; }
    HOW TO EAT
    ============================================================ */
 .howto {
-  padding: 100px 0;
+  padding: 120px 0;
   background: var(--clr-bg);
 }
 .howto .section__eyebrow,
